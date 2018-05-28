@@ -11,7 +11,7 @@ class School
 
   def add_student(name, grade)
     binding.pry
-    if @roster[grade]
+    if @roster[grade] !=nil
       @roster[grade] << name
     else
       @roster[grade] = [name]
