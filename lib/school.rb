@@ -7,5 +7,3 @@ class School
     @roster
   end
 end
-
-@school = School.new("Test School")
