@@ -18,4 +18,3 @@ class School
     end
   end
 end
-binding.pry
