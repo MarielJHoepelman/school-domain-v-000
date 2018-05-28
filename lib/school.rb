@@ -2,7 +2,7 @@ require "pry"
 class School
   def initialize(name)
     @name = name
-    @roster = []
+    @roster = {}
   end
 
   def roster
@@ -10,7 +10,7 @@ class School
   end
 
   def add_student(name, grade)
-    if @roster[grade] !=nil
+    if @roster[grade] != nil
       @roster[grade] << name
     else
       @roster[grade] = [name]
