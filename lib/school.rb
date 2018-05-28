@@ -2,7 +2,6 @@ class School
   ROSTER = []
   def initialize(name)
     @name = name
-    add_student
   end
 
   def add_student
