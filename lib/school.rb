@@ -1,4 +1,5 @@
 require "pry"
+
 class School
   def initialize(name)
     @name = name
@@ -17,3 +18,4 @@ class School
     end
   end
 end
+binding.pry
