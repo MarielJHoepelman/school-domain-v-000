@@ -1,7 +1,7 @@
 class School
 
   ROSTER = []
-  
+
   def initialize(students)
     @students = students
     add_student
@@ -15,5 +15,5 @@ class School
     
 
 
-  
+
 end
