@@ -25,5 +25,6 @@ class School
   def sort
     @roster.map do |grade, names|
       names.sort
+    end
   end
 end
